@@ -1,0 +1,197 @@
+/* -------------------------------------------*\
+                        MOBILE
+\*------------------------------------------- */
+/* influencer */
+@media (max-width: 480px) {
+    /* header area*/
+    .header>nav{
+        display: none;
+    }
+    /* influencer */
+    .influencer{
+        flex-direction: column;
+    }
+    .influencer>.influencer-content {
+        width: 337px;
+        height: 271px;
+    }
+    .influencer-content h1{
+        font-size:28px ;
+    }
+    .influencer-content a {
+        padding: 5px 11px;
+        border-radius: 19px;
+    }
+    .influencer>.influencer-image img {
+        width: 230px;
+        height: 270px;
+    }
+
+    /* popular section */
+    #popular-collection {
+        margin: 0px 8px;
+    }
+    #popular-collection h2 {
+        font-size: 20px;
+    }
+    .popular-collection {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card>img {
+        width: 228px;
+        height: 220px;
+    }
+
+    /* feauter products */
+    .featured-products {
+        flex-direction: column;
+    }
+    .product-img img{
+        width: 100%;
+    }
+
+    .footer>h3 {
+        padding: 19px 0 0px 0px;
+        font-size: 22px;
+    }
+}
+
+/* -------------------------------------------*\
+            IPAD AND TABLET
+\*------------------------------------------- */
+@media (min-width: 481px) and (max-width: 768px) {
+    nav{
+        display: none;
+    }
+    .influencer {
+        flex-direction: row;
+    }
+    .influencer-content h1 {
+        font-size: 28px;
+    }
+    .influencer>.influencer-image img {
+        width: 257px;
+        height: 301px;
+    }
+    .influencer-content p {
+        font-size: 14px;
+    }
+    .influencer-content a {
+        padding: 8px 14px;
+    }
+
+    /* cccc */
+    .popular-collection {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .card>img {
+        width: 180px;
+        height: 177px;
+    }
+    .card>.card-title {
+        font-size: 20px;
+    }
+    .card-details>.price {
+        font-size: 20px;
+    }
+    .fa, .fas {
+        font-weight: 600;
+    }
+    .card-details p {
+        font-size: 13px;
+        font-weight: 500;
+        width: 142px;
+        height: 51px;
+    }
+}
+
+/* -------------------------------------------*\
+                            LAPTOPS
+\*------------------------------------------- */
+/* influencer */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .influencer {
+        display: flex;
+        margin: 0 120px;
+    }
+    .influencer-content h1 {
+        font-size: 38px;
+        font-weight: 600;
+    }
+    .influencer>.influencer-image img {
+        width: 388px;
+        height: 376px;
+    }
+    .influencer-content p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .influencer-content a {
+        padding: 8px 18px;
+    }
+
+    /* popular collection */
+    .popular-collection {
+        justify-items: center;
+        justify-content: center;
+    }
+    #popular-collection h2 {
+        text-align: center;
+    }
+    .card {
+        border: 7px solid #fff;
+        margin: 10px;
+    }
+    .card>img {
+        width: 199px;
+        height: 195px;
+    }
+    .card>.card-title {
+        font-size: 18px;
+    }
+    .card-details>.price {
+        font-size: 20px;
+    }
+
+    /* footer */
+    .footer>h3 {
+        padding: 17px 0 0px 0;
+        font-size: 22px;
+    }
+    .footer>p {
+        font-size: 13px;
+    }
+    .footer_icons {
+        padding-bottom: 25px;
+    }
+}
+
+/* -------------------------------------------*\
+               COMPUTER MONITOR
+\*------------------------------------------- */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .header {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    /* influencer */
+    .influencer>.influencer-content {
+        width: 500px;
+        height: 380px;
+    }
+    .influencer>.influencer-image img {
+        width: 421px;
+        height: 393px;
+    }
+
+    /* popular */
+    .popular-collection {
+        justify-content: space-evenly;
+    }
+    .card>img {
+        width: 256px;
+        height: 234px;
+    }
+}

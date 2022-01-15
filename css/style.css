@@ -1,0 +1,58 @@
+/* -------------------------------------------*\
+            COMMON CSS
+\*------------------------------------------- */
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------------------------------------------*\
+            INFLUENCER SECTION STARTS
+\*------------------------------------------- */
+.influencer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.influencer>.influencer-content{
+    width: 582px;
+    height: 282px;
+}
+.influencer-content h1{
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.influencer-content p{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+.influencer-content a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+.influencer-content a:hover{
+    background: linear-gradient(#eb256e, #974966);
+}
+.influencer>.influencer-image img{
+    width: 440px;
+    height: 414px;
+}
+/* -------------------------------------------*\
+            HEADER SECTION STARTS
+\*------------------------------------------- */
+
+/* -------------------------------------------*\
+            HEADER SECTION STARTS
+\*------------------------------------------- */
+
+/* -------------------------------------------*\
+            HEADER SECTION STARTS
+\*------------------------------------------- */

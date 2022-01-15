@@ -103,3 +103,43 @@ body{
 /* -------------------------------------------*\
             HEADER SECTION STARTS
 \*------------------------------------------- */
+/* -------------------------------------------*\
+            FOOTER STARTS
+\*------------------------------------------- */
+footer{
+    background: #0A0826;
+}
+.footer{ 
+    color: #fff;
+    width: 268px;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer>h3{
+    padding: 50px 0 3px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer>p{
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer_icons{
+    letter-spacing: 5px;
+    padding-bottom: 50px;
+}
+.footer_icons .fab{
+    border-radius: 41px;
+    background-color: #22213C;
+    padding: 8px 4px 8px 8px;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+}
+.footer_icons .fas{
+    border-radius: 41px;
+    background-color: #22213C;
+    padding: 8px 4px 8px 8px;
+    text-align: center;
+    align-items: center;
+}
